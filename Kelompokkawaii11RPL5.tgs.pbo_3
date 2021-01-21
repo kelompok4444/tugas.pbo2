@@ -1,0 +1,14 @@
+<?php
+interface motor{
+   Public function belok_kanan();
+   Public function belok_kiri();
+}
+
+Class kendaraan implements motor(
+   //... isi dari class kendaraan
+}
+  
+Class arah implements motor{
+//... isi dari class arah
+}
+?>
