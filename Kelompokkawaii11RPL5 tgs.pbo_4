@@ -1,0 +1,33 @@
+<?php
+
+Interface motor{
+
+Public function Belok_kanan();
+
+Public function belok_kiri();
+
+}
+
+Class kendaraan implements motor{
+
+ Public functio belok_kanan(){
+
+Retrun"belok kanan...";
+
+}
+
+Public funtion belok_kiri(){
+
+Retrun"belok_kiri...";
+
+}
+
+}
+
+$kendaraan-baru=new motor();
+
+Echo motor_baru->belok kanan();
+
+// Belok kanan...
+
+?>
